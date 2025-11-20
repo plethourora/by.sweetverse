@@ -10204,3 +10204,20 @@ h6,
     display: none !important;
   }
 }
+.about-list {
+    list-style: none;
+    padding: 0;
+}
+
+.about-list li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.about-list .icon {
+    font-size: 20px;
+    color: #bb6f2d; /* warna lucu, bisa diganti */
+    margin-right: 10px;
+    margin-top: 2px;
+}
